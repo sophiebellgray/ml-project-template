@@ -1,0 +1,26 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+
+# Environments
+.env
+.venv
+anaconda3/
+miniconda3/
+
+# Data (keep data out of git)
+data/*
+!data/.gitkeep
+
+# Reports (optional: keep reports tracked; remove next 2 lines if you want to track everything in reports)
+# reports/*
+# !reports/.gitkeep
+
+# VS Code local
+.vscode/*.log
